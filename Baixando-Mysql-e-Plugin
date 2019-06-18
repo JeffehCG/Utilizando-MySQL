@@ -1,0 +1,69 @@
+Acesse esse site = https://dev.mysql.com/downloads/
+
+Selecione - MySQL Community Server
+
+Abaixo, em "Generally Available (GA) Releases" selecione o sistema operacional,
+e clique no botão "Go to download page" 
+
+Abaixo em "Generally Available (GA) Releases" contem duas opções para baixar
+A primeira baixa apenas o que você selecionar
+A segunda baixo todos componentes do mysql
+
+Escolha e clique em download , em seguida clique em "No thanks, just start my download."
+
+-----------------------------------------------------------------------------------------------
+Nesse caso foi selecionado a primeira opção , e baixado apenas o MySQL server e Workbench
+
+Para selecionar apenas o MySQL server e Workbench selecione Custom
+Server - dentro de MySQL Serves
+Workbench - dentro de Applications
+
+------------------------------------------------------------------------------------------------
+Configurando MySQL Server
+
+Em High Availability
+Selecione o Standalone aperte next
+
+Em Type and Networking
+Abrira opções de portas etc, manter configurações padroes
+
+Em Authentication Method
+preferencia Use Legacy
+
+Em Account and Roles escolha a senha
+Senha = 30071996
+
+Em Windows Service mantenha configuração padrao
+
+Por fim clique em execute
+
+------------------------------------------------------------------------------------------------
+Criando nova conecção no Workbench
+clique no simbolo de mais e preencha os seguintes campos
+
+Connection Name : Escolher nome da conecção (nesse caso "local_connection")
+Hostname : Ip que o servidor MySQL esta rodando (Como esta local fica "localhost")
+UserName : Nome do usuario colocado na instalação (nesse caso root)
+
+Clique em ok 
+Clique em cima da conecção e coloque a senha (nesse caso 30071996)
+
+-------------------------------------------------------------------------------------------------
+vscode-database = plugin para manipular banco de dados pelo vscode
+
+Configurando plugin 
+ctrl + shift + p / escrever MySQL e selecionar "Connect to SQL server
+e preencher os dados (nesse caso...
+localhost,
+root,
+30071996
+)
+E na barra inferior azul claro do vscode em escolher o banco que sera utilizado (nesse caso wm)
+
+mysqld.exe - nome do processo no windows
+
+
+
+
+
+
